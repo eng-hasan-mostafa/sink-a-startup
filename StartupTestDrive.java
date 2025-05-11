@@ -9,7 +9,8 @@ class StartupTestDrive {
     fakeLocation.add("A0");
     fakeLocation.add("A1");
     fakeLocation.add("A3");
-    
+    testStartup.setLocationCells(fakeLocation);
+ 
     String fakeUserGuess = "A1";
     String result = testStartup.checkYourself(fakeUserGuess);
 
